@@ -1,0 +1,9 @@
+.box{
+    display: inline-block;
+    padding: 42px;
+    margin-top: 115px;
+    margin-left: 90px;
+    background-color: #3A4042;
+    text-align: center;
+    box-shadow: 10px 10px 0px #000;
+}
