@@ -1,20 +1,30 @@
 .skills{
+    display: flex;
+    flex-direction: column;
     background-color: #F25A70;
     padding-top: 50px;
     text-align: center;
+    border-bottom: 10px solid #7C5E99;
 }
-.img-skills{
-    margin-right: 25px;
-    width: 90px;
-    height: 80px;
-}
-.box-skill{
+.skill-org-all{
     display: flex;
-    width: 430px;
-    height: 90px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
 }
 .box-skill-col{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.box-skill{
+    display: flex;
+    width: 430px;
+    height: 90px;
+    margin-bottom: 35px;
+}
+.img-skills{
+    margin-right: 25px;
+    width: 90px;
+    height: 80px;
 }
