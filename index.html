@@ -14,6 +14,8 @@
         <link rel="stylesheet" href="css/wrapper-skills.css">
         <link rel="stylesheet" href="css/skill-tec.css">
         <link rel="stylesheet" href="css/progress-bar.css">
+        <link rel="stylesheet" href="css/box-cards.css">
+        <link rel="stylesheet" href="css/card-projeto.css">
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
     </head>
 
@@ -22,8 +24,8 @@
             <img src="images/avatar.PNG" alt="Avatar do João Almeida" class="img-header">
 
             <nav class="navigation">
-                <a class="action" href="">Skills</a>
-                <a class="action" href="">Projetos</a>
+                <a class="action" href="#skills">Skills</a>
+                <a class="action" href="#projetos">Projetos</a>
                 <a class="action" href="">Sobre</a>
                 <a class="action" href="">Contatos</a>
                 <a class="button" href="">Download CV</a>
@@ -41,7 +43,7 @@
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section id="skills" class="section">
             <h1 class="main-title -second">Skills</h1>
             <div class="wrapper-skills">
                 <article class="skill-tec">
@@ -101,6 +103,20 @@
                     </div>
                 </article>
             </div>            
+        </section>
+        <section id="projetos" class="section -projetos">
+            <h1 class="main-title -second">Projetos</h1>
+            <div class="box-cards">
+                <div class="card-projeto -fl">
+                    <a href=""><img class="img-card" src="images/logo-firedlabs.png" alt="Logotipo Firelabs"></a>
+                </div>
+                <div class="card-projeto -cc">
+                    <a href=""><img class="img-card" src="images/logo-collabcode.png" alt="Logotipo Colabcode"></a>
+                </div>
+                <div class="card-projeto">
+                    <a href=""><img class="img-card -av" src="images/avatar.PNG" alt="Avatar JoaoAlmeida"></a>
+                </div>
+            </div>
         </section>
         
     </body>
