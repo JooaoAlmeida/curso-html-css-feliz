@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="css/paragraf.css">
         <link rel="stylesheet" href="css/button-arrow.css">
         <link rel="stylesheet" href="css/main-node.css">
+        <link rel="stylesheet" href="css/main-form.css">
         <link rel="stylesheet" href="css/main-footer.css">
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
     </head>
@@ -176,6 +177,22 @@
                 o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
             </p>
 
+        </section>
+        <section class="section -bgGray">
+            <h1 class="main-title -second">Contatos</h1>
+
+            <form class="main-form"action="" method="get">
+                <label for="nome">Nome:</label>
+                <input  class="box-form" id="nome" type="text" name="nome" required maxlength="50">
+
+                <label for="email">Email:</label>
+                <input  class="box-form" id="email" type="email" name="email" required maxlength="50">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea class="box-form -msg" name="mensagem" id="mensagem" required></textarea>
+
+                <input class="button -form" type="submit" value="Enviar">
+              </form>
         </section>
         <footer class="main-footer">
             <a class="logo-footer" href=""><img src="images/icon-twitter.png" alt="Logo Twitter"></a>

@@ -1,0 +1,23 @@
+.main-form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Fira Code', monospace;
+    font-size: 40px;
+    color: #fff;
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+}
+.main-form .box-form{
+    background-color: #fff;
+    font-size: 30px;
+    box-sizing: border-box;
+    height: 50px;
+    border: 5px solid #000;
+    margin-bottom: 20px;
+}
+.main-form .box-form.-msg{
+    height: 315px;
+    display: inline;
+}
