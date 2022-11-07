@@ -1,0 +1,14 @@
+.main-carousel{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    margin-bottom: 50px;
+}
+.main-carousel .hidden-itens{
+    overflow: hidden;
+}
+.main-carousel .itens{
+    transition: transform 200ms ease-in-out;
+    transform: translateX(0px);
+}
